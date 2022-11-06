@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.card {
+    border: 1px solid gray;
+    width: 300px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.card .content {
+    padding: 20px 10px;
+}
+
+.card .content h3{
+    font-family:sans-serif;
+    margin-bottom: 10px;
+}
+
+.card .content p{
+    font-size: 18px;
+    font-weight: 700;
+    color: burlywood;
+}
+
+.card .content .discount {
+    font-size: 15px;
+    font-weight: 400;
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.card .content .star {
+    color: burlywood;
+    transition: 0.35s;
+    
+}
+
+.card .content .button{
+    text-decoration: none;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    outline: 1px solid red;
+    font-family: Arial;
+    color: red;
+    margin-top: 10px;
+    transition:0.4s;
+}
+
+.card:hover .content .button {
+    background-color: red;
+    color: white;
+}
+
+.card:hover .content .star {
+    color: red;
+    font-size: 15px;
+}
+
+
+
+.card2 {
+    border: 1px solid gray;
+    width: 300px;
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.card2 .content2 {
+    padding: 20px 10px;
+}
+
+.card2 .content2 h3{
+    font-family:sans-serif;
+    margin-bottom: 10px;
+}
+
+.card2 .content2 p{
+    font-size: 18px;
+    font-weight: 700;
+    color: burlywood;
+}
+
+.card2 .content2 .discounts {
+    font-size: 15px;
+    font-weight: 400;
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+.card2 .content2 .star2 {
+    color: burlywood;
+    transition: 0.35s;
+    
+}
+
+.card2 .content2 .button2{
+    text-decoration: none;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    outline: 1px solid red;
+    font-family: Arial;
+    color: red;
+    margin-top: 10px;
+    transition:0.4s;
+}
+
+.card2:hover .content2 .button2 {
+    background-color: red;
+    color: white;
+}
+
+.card2:hover .content2 .star2 {
+    color: red;
+    font-size: 15px;
+}
